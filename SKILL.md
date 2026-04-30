@@ -76,13 +76,23 @@ Hoofdmenu (live): *Wat we doen · Cases · Aanpak · Ons team · Vacatures · Ke
 
 ### Kleuren (tokens in `tokens.json`)
 
-Brand-gradient (signature):
+**Brand-gradient (signature):**
 - `--brand-orange: #f97316`
 - `--brand-red: #ef4444`
 - `--brand-pink: #ec4899`
 
-Gebruik in: tekst-accent (AI), achtergrond rounded buttons, hero-elementen.
-Niet voor: body-tekst, body-backgrounds.
+**Wanneer gradient, wanneer mono-oranje:**
+
+| Gebruik | Kleurkeuze |
+|---|---|
+| Logo (de "Collega's"-pill) | Gradient `#f97316 → #ef4444 → #ec4899` |
+| Hero-elementen op landingspages | Gradient |
+| Signature CTA op web | Gradient pill-button |
+| Body-UI / kleine accenten / focus rings | Mono `--orange-500` |
+| **Meta-ads** (alle social ad formats) | **Mono `--orange-500` op 1 woord** — geen gradient |
+| Badge-dots, check-icons | Mono oranje of `--neutral-950` |
+
+Vuistregel: gradient = "wow"-momenten (hero, logo). Mono-oranje = body UI en alles wat klein/druk renders.
 
 Neutralen:
 - Zwart `#000000` voor body-tekst en .NL-suffix
@@ -91,10 +101,12 @@ Neutralen:
 
 ### Typografie
 
-- **Font-family:** `Inter, 'Inter Fallback', system-ui, sans-serif` — zoals live op aicollegas.nl
-- Laden via Google Fonts (`@import 'Inter:wght@400;500;600;700'`) of zelf-gehost via `@fontsource/inter`
+- **Primary:** `Inter, 'Inter Fallback', system-ui, sans-serif` — alle headings + body
+- **Mono:** `'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace` — voor *stats*, cijfers, stap-nummers, code
+- Laden via Google Fonts: `Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700`
 - **Fallback** voor e-mail/oudere clients: `-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif`
 - **Logo-pattern:** "AI" (gradient, bold 80px) + "Collega's" (wit op gradient-rect, bold 60px) + ".NL" (zwart, bold 80px)
+- **Stats:** JetBrains Mono 700, tracking-tighter, voor cijfers in hero / process-steps
 
 ### Spacing & radii
 

@@ -32,6 +32,7 @@
 
   /* Typografie */
   --font-primary: Inter, 'Inter Fallback', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', ui-monospace, SFMono-Regular, Menlo, monospace;
   --font-fallback: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
   /* Backwards-compat alias — bestaand gebruik blijft werken */
   --font-system: var(--font-primary);
@@ -98,8 +99,8 @@
   opacity: 0.9;
 }
 
-/* Body defaults — Inter via Google Fonts (zelf-hosted: zie components/README.md) */
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+/* Body defaults — Inter + JetBrains Mono via Google Fonts (zelf-hosted: zie components/README.md) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;700&display=swap');
 
 body {
   font-family: var(--font-primary);
