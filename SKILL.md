@@ -16,12 +16,61 @@ Gebruik dit skill-bestand bij het maken van *elke* visuele output voor AI Colleg
 
 ## Productlijn
 
-Drie pijlers (zichtbaar op kantoor-presentatie):
-- **AI inspireren** — bewustwording, workshops, eerste contact
-- **AI lezen** — content-, document- en data-analyse
-- **AI integreren** — agents en workflows in productie
+Drie diensten (live op aicollegas.nl/wat-we-doen/):
 
-Daarnaast: **AI Collega's HUB** — fysieke + digitale plek voor klanten in Apeldoorn (zichtbaar op `assets/photos/groep/pitch-hub.jpg`).
+- **AI Agents** — `/wat-we-doen/ai-agents` — autonome AI-collega's die taken overnemen (bv. Tom voor Meta Ads)
+- **AI Strategie** — `/wat-we-doen/ai-strategie` — advies + roadmap voor AI-implementatie binnen MKB
+- **AI Partnership** — `/wat-we-doen/ai-partnership` — langetermijn partnership met begeleiding en doorontwikkeling
+
+Daarnaast op intern materiaal (zoals zichtbaar in `assets/photos/groep/meeting-wat-wij-doen.jpg`) wordt soms het kader **AI inspireren / AI lezen / AI integreren** gehanteerd. *Bij externe communicatie altijd de live productnaamgeving aanhouden* (Agents / Strategie / Partnership), tenzij David expliciet anders aangeeft.
+
+**AI Collega's HUB** — branded fysieke + digitale ontmoetingsplek in Apeldoorn (zichtbaar op `assets/photos/groep/pitch-hub.jpg`), gebruikt voor klant-onboarding en kennisdeling.
+
+## Cases / klanten
+
+Live op aicollegas.nl/cases:
+- **Up Events**
+- **Treepar**
+- **FamilyGrass**
+
+Gebruik deze namen voor social proof, testimonial-blocks en case-studies. Andere klanten alleen na expliciete toestemming.
+
+## Team
+
+10 personen op aicollegas.nl/team:
+
+| Naam | Rol |
+|---|---|
+| Jacco | Sales Lead |
+| Maarten | AI Strategy Lead |
+| Lars | AI Developer |
+| David | AI Implementatiespecialist |
+| Marlie | Online Marketeer |
+| Niels | AI Product Lead |
+| Aaron | Business Development Representative |
+| Kean | AI Automations |
+| Remon | AI Trainer |
+| Manuela | Digital Transformations |
+
+## Site-architectuur (huidige aicollegas.nl)
+
+```
+/                            ← homepage
+/wat-we-doen/ai-agents
+/wat-we-doen/ai-strategie
+/wat-we-doen/ai-partnership
+/cases                       ← klant-overzicht
+/cases/up-events
+/cases/treepar
+/cases/familygrass
+/team                        ← 10 teamleden
+/vacatures
+/contact                     ← "Kennismaken"
+/privacy-policy
+/algemene-voorwaarden
+```
+
+Hoofdmenu (live): *Wat we doen · Cases · Aanpak · Ons team · Vacatures · Kennismaken*
 
 ## Visuele basis
 
@@ -42,9 +91,10 @@ Neutralen:
 
 ### Typografie
 
-- **Font-stack:** `-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif`
+- **Font-family:** `Inter, 'Inter Fallback', system-ui, sans-serif` — zoals live op aicollegas.nl
+- Laden via Google Fonts (`@import 'Inter:wght@400;500;600;700'`) of zelf-gehost via `@fontsource/inter`
+- **Fallback** voor e-mail/oudere clients: `-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif`
 - **Logo-pattern:** "AI" (gradient, bold 80px) + "Collega's" (wit op gradient-rect, bold 60px) + ".NL" (zwart, bold 80px)
-- Geen custom webfonts — system-ui is de standaard
 
 ### Spacing & radii
 
@@ -66,9 +116,27 @@ Gebruik shadcn/ui als basis. Onze layers:
 ## Schrijf-conventies
 
 - Nederlands, informeel maar zakelijk
-- Geen Engelstalige knoppen ("Click here") — gebruik "Lees meer", "Plan kennismaking"
+- Geen Engelstalige knoppen ("Click here") — gebruik "Lees meer", "Plan kennismaking", "Kennismaken"
 - Werkfruit en n8n zijn productnamen — niet vertalen
 - AI Collega's met apostrof — niet "AI Collegas" of "AI-collega's"
+
+### Echte koppen van aicollegas.nl (toon-kalibratie)
+
+Gebruik deze zinnen als voorbeeld voor lengte, ritme, woordkeuze:
+
+> "Een nieuwe collega. Voor een fractie van de kosten."
+> "Slimmer werken, minder fouten, meer tijd voor wat écht belangrijk is."
+> "Vertrouwd door [N]+ organisaties"
+> "AI Collega's in de praktijk"
+> "Beschikbaarheid — Jouw AI Collega werkt altijd door"
+
+Patronen:
+- **Korte hoofdzin + uitwerking** — eerst statement, dan voordeel
+- **Concrete voordelen, geen abstracties** — "minder fouten" beats "verbeterde nauwkeurigheid"
+- **"Jouw AI Collega"** als anthropomorfisering — werkt voor eindgebruiker
+- **Komma's > aaneengeschakelde lijstjes** — "Slimmer werken, minder fouten, meer tijd"
+
+CTA's die op de site werken: *Kennismaken*, *Plan een kennismaking*, *Bekijk cases*, *Lees meer*
 
 ## Output-formats
 

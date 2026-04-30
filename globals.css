@@ -31,7 +31,10 @@
   --gradient-brand-2: linear-gradient(90deg, var(--color-brand-orange) 0%, var(--color-brand-red) 100%);
 
   /* Typografie */
-  --font-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-primary: Inter, 'Inter Fallback', system-ui, sans-serif;
+  --font-fallback: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  /* Backwards-compat alias — bestaand gebruik blijft werken */
+  --font-system: var(--font-primary);
   --font-size-xs: 12px;
   --font-size-sm: 14px;
   --font-size-base: 16px;
@@ -95,9 +98,11 @@
   opacity: 0.9;
 }
 
-/* Body defaults */
+/* Body defaults — Inter via Google Fonts (zelf-hosted: zie components/README.md) */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
 body {
-  font-family: var(--font-system);
+  font-family: var(--font-primary);
   font-size: var(--font-size-base);
   color: var(--color-black);
   background: var(--color-white);

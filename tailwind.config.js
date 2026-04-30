@@ -27,7 +27,9 @@ export default {
         "gradient-brand-2": "var(--gradient-brand-2)",
       },
       fontFamily: {
-        system: "var(--font-system)",
+        primary: "var(--font-primary)",
+        fallback: "var(--font-fallback)",
+        system: "var(--font-primary)",
       },
       borderRadius: {
         pill: "var(--radius-pill)",
