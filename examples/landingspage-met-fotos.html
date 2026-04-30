@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AI Collega's — Landingspage met fotografie</title>
+  <link rel="stylesheet" href="../globals.css" />
+  <style>
+    body { margin: 0; }
+
+    /* Hero met foto-overlay */
+    .hero {
+      position: relative;
+      min-height: 640px;
+      background-image: url("../assets/photos/groep/pitch-hub.jpg");
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      align-items: flex-end;
+      overflow: hidden;
+    }
+    .hero::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(0,0,0,0.1) 0%, rgba(0,0,0,0.4) 50%, rgba(0,0,0,0.85) 100%);
+    }
+    .hero-content {
+      position: relative;
+      max-width: 720px;
+      padding: var(--space-16) var(--space-8);
+      color: var(--color-white);
+    }
+    .hero h1 {
+      font-size: var(--font-size-5xl);
+      line-height: 1.1;
+      margin: 0 0 var(--space-4);
+    }
+    .hero p { font-size: var(--font-size-xl); opacity: 0.9; margin: 0 0 var(--space-8); }
+
+    /* Carrousel */
+    .carrousel-wrap {
+      padding: var(--space-16) var(--space-6);
+      background: var(--color-gray-50);
+    }
+    .carrousel-wrap h2 {
+      font-size: var(--font-size-3xl);
+      max-width: 1200px;
+      margin: 0 auto var(--space-8);
+    }
+    .carrousel {
+      display: flex;
+      gap: var(--space-6);
+      overflow-x: auto;
+      padding: var(--space-2) var(--space-2) var(--space-6);
+      scroll-snap-type: x mandatory;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .carrousel figure {
+      flex: 0 0 360px;
+      scroll-snap-align: start;
+      margin: 0;
+    }
+    .carrousel img {
+      width: 100%; height: 240px; object-fit: cover;
+      border-radius: var(--radius-lg);
+      display: block;
+    }
+    .carrousel figcaption {
+      margin-top: var(--space-3);
+      font-size: var(--font-size-sm);
+      color: var(--color-gray-600);
+    }
+
+    /* Side-by-side foto + tekst */
+    .split {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: var(--space-12);
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: var(--space-16) var(--space-6);
+      align-items: center;
+    }
+    .split img {
+      width: 100%;
+      border-radius: var(--radius-lg);
+      aspect-ratio: 4 / 3;
+      object-fit: cover;
+    }
+    .split h2 {
+      font-size: var(--font-size-3xl);
+      margin: 0 0 var(--space-4);
+    }
+    .split p {
+      font-size: var(--font-size-lg);
+      color: var(--color-gray-600);
+      margin: 0 0 var(--space-6);
+    }
+
+    @media (max-width: 800px) {
+      .split { grid-template-columns: 1fr; }
+      .hero { min-height: 480px; }
+      .hero h1 { font-size: var(--font-size-4xl); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HERO met foto-overlay -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Een AI-collega die het werk overneemt.</h1>
+      <p>Voor Nederlandse MKB-bedrijven en recruiters die willen starten met AI — zonder zelf te coderen.</p>
+      <a href="#contact" class="btn-gradient-pill">Plan een kennismaking</a>
+    </div>
+  </section>
+
+  <!-- SAMENWERKINGS-CARROUSEL -->
+  <section class="carrousel-wrap">
+    <h2>Zo werken we.</h2>
+    <div class="carrousel">
+      <figure>
+        <img src="../assets/photos/samenwerking/sparring-bank.jpg" alt="Drie collega's bespreken een AI-vraagstuk" />
+        <figcaption>Sparringssessie met het team</figcaption>
+      </figure>
+      <figure>
+        <img src="../assets/photos/samenwerking/duo-werkplek.jpg" alt="Twee mensen kijken samen naar een dashboard" />
+        <figcaption>Klantonboarding op locatie</figcaption>
+      </figure>
+      <figure>
+        <img src="../assets/photos/samenwerking/bank-overleg.jpg" alt="Informeel overleg op de bank met laptop" />
+        <figcaption>Informeel kennismaken</figcaption>
+      </figure>
+      <figure>
+        <img src="../assets/photos/samenwerking/duo-dual-monitor.jpg" alt="Twee collega's werken aan een dual-monitor opstelling" />
+        <figcaption>Implementatie en review</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- SPLIT: foto + tekst -->
+  <section class="split">
+    <img src="../assets/photos/werkplek/wide-kantoor.jpg" alt="Het AI Collega's HQ in Apeldoorn" />
+    <div>
+      <h2>HQ Apeldoorn.</h2>
+      <p>Geen virtueel team — een echte werkplek waar we AI bouwen, testen en bijschaven. Kom langs voor een kop koffie en zie zelf hoe Tom, onze Meta Ads-collega, leads doorstuurt naar Werkfruit.</p>
+      <a href="#bezoek" class="btn-gradient-pill">Plan een bezoek</a>
+    </div>
+  </section>
+
+  <!-- SPLIT 2: anonieme code-shot -->
+  <section class="split" style="background: var(--color-gray-900); color: var(--color-white);">
+    <div>
+      <h2 style="color: var(--color-white);">Bouwen, niet praten.</h2>
+      <p style="color: var(--color-gray-400);">Onze agents draaien 24/7 op echte infrastructuur. Geen demo's met fake-data — elke AI-collega die we leveren werkt met je echte ATS, je echte funnel en je echte klanten vanaf dag één.</p>
+      <a href="#agents" class="btn-gradient-pill">Bekijk agents</a>
+    </div>
+    <img src="../assets/photos/werkplek/over-shoulder-code.jpg" alt="Over-the-shoulder shot van iemand die code schrijft" />
+  </section>
+
+</body>
+</html>

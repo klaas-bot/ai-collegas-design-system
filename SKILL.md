@@ -14,6 +14,15 @@ Gebruik dit skill-bestand bij het maken van *elke* visuele output voor AI Colleg
 - **Toon:** informeel (je/jij), bondig, geen marketing-fluff, geen Engelstalige termen waar Nederlands kan
 - **Positionering:** "Enige Nederlandse AI agent partij voor MKB" — alle concurrenten zijn internationale Engelstalige SaaS
 
+## Productlijn
+
+Drie pijlers (zichtbaar op kantoor-presentatie):
+- **AI inspireren** — bewustwording, workshops, eerste contact
+- **AI lezen** — content-, document- en data-analyse
+- **AI integreren** — agents en workflows in productie
+
+Daarnaast: **AI Collega's HUB** — fysieke + digitale plek voor klanten in Apeldoorn (zichtbaar op `assets/photos/groep/pitch-hub.jpg`).
+
 ## Visuele basis
 
 ### Kleuren (tokens in `tokens.json`)
@@ -79,10 +88,43 @@ Gebruik shadcn/ui als basis. Onze layers:
 > "Schrijf een e-mail voor recruiters over close-rate analyse"
 → Wit, system-ui, oranje accent, max 300 woorden, geen marketing-praat
 
+## Fotografie
+
+De foto-set in `assets/photos/` is dé bron voor visuele content. Stijl is consistent en matcht het brand-licht.
+
+### Wat de foto's gemeen hebben (gebruik dit voor nieuwe shoots)
+
+- **Licht:** natuurlijk warm, oranje-gele spots, donkere accenten — geen flits, geen wit kantoor
+- **Setting:** AI Collega's HQ Apeldoorn — donkere wanden, hout, leer, glas, plant-accenten
+- **Mensen:** echte momenten (sparring, werken, overleg). Geen gestaged glimlach. Geen handgeschudde clichés.
+- **Compositie:** ruim — vaak ruimte voor tekst-overlay rechts of bovenaan
+
+### Wanneer welke categorie
+
+| Categorie | Map | Wanneer |
+|---|---|---|
+| Groep / pitch | `groep/` | Hero homepage, "Over ons" — beste brand-statement |
+| Samenwerking | `samenwerking/` | "Zo werken we", klant-onboarding, proces |
+| Werkplek | `werkplek/` | Sfeer-secties, technologie-content, anonieme overlays |
+| Portret | `portret/` | B2B-content, "professional"-context |
+
+### Standaard rendering
+
+- `border-radius: var(--radius-lg)` (16px) op elke foto
+- `object-fit: cover` met expliciete aspect ratio
+- Voor hero-overlays: `linear-gradient(180deg, transparent → rgba(0,0,0,0.85))` van boven naar onder
+
+### Wat niet doen met foto's
+
+- Geen filters die de warme tinten naar koel trekken
+- Geen "knock-out" effects (mens uitknippen op witte achtergrond)
+- Geen forced croppings die de natuurlijke compositie breken
+- Geen brand-gradient *óver* gezichten — alleen op decorelementen of donkere zones
+
 ## Wat niet doen
 
 - Geen blauwe corporate-tinten (concurrenten doen dat al)
-- Geen stockfoto's van mensen achter laptops
+- Geen stockfoto's van mensen achter laptops — gebruik onze eigen set
 - Geen Engelstalige headlines
 - Geen complexe gradients buiten de brand-3 kleuren
 - Geen gecondenseerde of serif-fonts
