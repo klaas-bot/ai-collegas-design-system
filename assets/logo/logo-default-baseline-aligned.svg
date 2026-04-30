@@ -1,0 +1,27 @@
+
+      <svg width="1200" height="300" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="aiGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#f97316"/>
+            <stop offset="50%" stop-color="#ef4444"/>
+            <stop offset="100%" stop-color="#ec4899"/>
+          </linearGradient>
+          <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#f97316"/>
+            <stop offset="100%" stop-color="#ef4444"/>
+          </linearGradient>
+        </defs>
+        
+        <!-- AI text with gradient - using text-anchor start and baseline alignment -->
+        <text x="50" y="150" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="80" font-weight="bold" fill="url(#aiGradient)" text-anchor="start" dominant-baseline="central">AI</text>
+        
+        <!-- Rounded rectangle background for Collega's -->
+        <rect x="150" y="100" width="320" height="100" rx="50" ry="50" fill="url(#bgGradient)"/>
+        
+        <!-- Collega's text in white - centered in rectangle but aligned with baseline -->
+        <text x="310" y="150" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="60" font-weight="bold" fill="#ffffff" text-anchor="middle" dominant-baseline="central">Collega's</text>
+        
+        <!-- .NL text in black - aligned with AI baseline -->
+        <text x="490" y="150" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="80" font-weight="bold" fill="#000000" text-anchor="start" dominant-baseline="central">.NL</text>
+      </svg>
+    
