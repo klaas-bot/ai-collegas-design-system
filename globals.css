@@ -1,0 +1,105 @@
+/*
+ * AI Collega's — Design System Globals
+ * CSS-variabelen die de tokens uit tokens.json mirroren.
+ * Gebruik deze in Tailwind v4 (@theme) of als pure CSS.
+ */
+
+:root {
+  /* Brand */
+  --color-brand-orange: #f97316;
+  --color-brand-red: #ef4444;
+  --color-brand-pink: #ec4899;
+
+  /* Neutralen */
+  --color-black: #000000;
+  --color-white: #ffffff;
+  --color-gray-50: #fafafa;
+  --color-gray-100: #f4f4f5;
+  --color-gray-200: #e4e4e7;
+  --color-gray-400: #a1a1aa;
+  --color-gray-600: #52525b;
+  --color-gray-900: #18181b;
+
+  /* Semantic */
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-danger: #ef4444;
+  --color-info: #3b82f6;
+
+  /* Gradients */
+  --gradient-brand-3: linear-gradient(90deg, var(--color-brand-orange) 0%, var(--color-brand-red) 50%, var(--color-brand-pink) 100%);
+  --gradient-brand-2: linear-gradient(90deg, var(--color-brand-orange) 0%, var(--color-brand-red) 100%);
+
+  /* Typografie */
+  --font-system: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 20px;
+  --font-size-2xl: 24px;
+  --font-size-3xl: 32px;
+  --font-size-4xl: 48px;
+  --font-size-5xl: 64px;
+  --font-size-logo: 80px;
+
+  /* Spacing */
+  --space-0: 0px;
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+  --space-12: 48px;
+  --space-16: 64px;
+  --space-24: 96px;
+
+  /* Radii */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-pill: 9999px;
+
+  /* Shadows */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+  --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1);
+}
+
+/* Utility-classes voor brand-gradient tekst */
+.text-gradient-brand {
+  background: var(--gradient-brand-3);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+/* Pill-button met brand-gradient achtergrond */
+.btn-gradient-pill {
+  background: var(--gradient-brand-2);
+  color: var(--color-white);
+  border-radius: var(--radius-pill);
+  padding: var(--space-3) var(--space-6);
+  font-family: var(--font-system);
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: opacity 0.15s ease;
+}
+
+.btn-gradient-pill:hover {
+  opacity: 0.9;
+}
+
+/* Body defaults */
+body {
+  font-family: var(--font-system);
+  font-size: var(--font-size-base);
+  color: var(--color-black);
+  background: var(--color-white);
+  line-height: 1.5;
+}

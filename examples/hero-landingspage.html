@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <title>AI Collega's — Hero voorbeeld</title>
+  <link rel="stylesheet" href="../globals.css" />
+  <style>
+    .hero {
+      max-width: 960px;
+      margin: 0 auto;
+      padding: var(--space-24) var(--space-6);
+      text-align: center;
+    }
+    .hero h1 {
+      font-size: var(--font-size-5xl);
+      font-weight: 700;
+      line-height: 1.1;
+      margin: 0 0 var(--space-6);
+    }
+    .hero p {
+      font-size: var(--font-size-xl);
+      color: var(--color-gray-600);
+      margin: 0 0 var(--space-8);
+    }
+    .logo-row {
+      display: inline-flex;
+      align-items: center;
+      gap: 0;
+      margin-bottom: var(--space-12);
+      font-size: var(--font-size-logo);
+      font-weight: 700;
+    }
+    .logo-pill {
+      background: var(--gradient-brand-2);
+      color: var(--color-white);
+      padding: var(--space-2) var(--space-6);
+      border-radius: var(--radius-pill);
+      margin: 0 var(--space-2);
+      font-size: var(--font-size-4xl);
+    }
+  </style>
+</head>
+<body>
+  <main class="hero">
+    <div class="logo-row">
+      <span class="text-gradient-brand">AI</span>
+      <span class="logo-pill">Collega's</span>
+      <span>.NL</span>
+    </div>
+    <h1>Een AI-collega die het werk overneemt.</h1>
+    <p>Voor Nederlandse MKB-bedrijven en recruiters die willen starten met AI — zonder zelf te hoeven coderen.</p>
+    <button class="btn-gradient-pill">Plan een kennismaking</button>
+  </main>
+</body>
+</html>
