@@ -1,34 +1,58 @@
 # Logo
 
+**Versie 2.0** — mono-oranje. Gradient-versies zijn legacy.
+
 ## Bestanden
 
 | Bestand | Gebruik |
 |---|---|
-| `logo-default.svg` | Standaard — voor lichte achtergronden (`.NL` in zwart) |
-| `logo-on-dark.svg` | Voor donkere achtergronden (`.NL` in wit) |
-| `logo-default-baseline-aligned.svg` | Variant met `dominant-baseline="central"` voor pixelperfecte vertical centering |
+| `logo-default.svg` | Standaard — voor lichte achtergronden (`.NL` in zwart). Mono-oranje, Inter, viewBox 182×34. |
+| `logo-on-dark.svg` | Voor donkere achtergronden (`.NL` in wit). Mono-oranje, Inter, viewBox 182×34. |
+| `logo-default.png` | Bitmap-fallback voor e-mail/social — 936×304, `.NL` zwart |
+| `logo-mark.png` | Compacte variant zonder `.NL` — universeel inzetbaar op **licht én donker** (oranje pill is goed leesbaar tegen beide). Ook voor favicons, square avatars, narrow placements (936×304). |
+| `favicons/favicon.ico` | Multi-size .ico (256×256) — voor `<link rel="icon">` in `<head>` |
+| `favicons/icon-32.png` | 32×32 PNG icon — voor moderne browsers (`<link rel="icon" sizes="32x32">`) |
+| `favicons/apple-icon-180.png` | 180×180 Apple touch icon — voor iOS home-screen |
+| `legacy/*` | Oude gradient-logo's (1.0). **Niet gebruiken voor nieuwe productie.** Behouden voor referentie en archiefcontent. |
 
-## Anatomie
+## Anatomie (2.0)
 
 ```
 [ AI ]   [ Collega's ]   [ .NL ]
-gradient  wit op rect    zwart of wit
+oranje    wit op oranje   zwart of wit
 ```
 
-- *Canvas:* 1200×300
-- *Typografie:* `-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto`, bold
-- *AI / .NL:* 80px
-- *Collega's:* 60px op pill (`rx=50`)
+- *Canvas SVG:* viewBox `0 0 182 34` — kleine, schaalbare vector
+- *Canvas PNG:* 936×304 (3:1) — voor schaling tot kleine formaten
+- *Typografie:* Inter (Google Fonts), bold 700
+- *AI:* font-size 30px-equivalent, letter-spacing -0.025em, fill `#f97316`
+- *Collega's pill:* width 104, height 28, rx 14, fill `#f97316`, witte tekst font-size 18px
+- *.NL:* font-size 24px-equivalent, letter-spacing -0.025em, fill `#0a0a0a` (default) of `#ffffff` (on-dark)
 
-## Kleuren
+## Kleuren (2.0)
 
-- *AI gradient:* `#f97316 → #ef4444 → #ec4899` (3-stop)
-- *Pill achtergrond:* `#f97316 → #ef4444` (2-stop)
-- *.NL:* `#000000` (default) of `#ffffff` (on-dark)
+- *AI + pill:* solid `#f97316` (mono-oranje, geen gradient)
+- *Collega's tekst:* `#ffffff`
+- *.NL:* `#0a0a0a` (default) of `#ffffff` (on-dark)
+
+## Wat mag je aanpassen
+
+- Kleur van `.NL` (zwart/wit) afhankelijk van achtergrond
+- Schaal — alle elementen schalen evenredig mee
+- Kleur van AI + pill — alleen `#f97316` (default), `#ffffff` (knock-out op gekleurde achtergrond), of `#0a0a0a` (mono-zwart fallback voor print/fax)
+
+## Wat NIET aanpassen
+
+- Geen gradient meer in het logo (was 1.0, is verlaten)
+- Geen andere kleur dan oranje/wit/zwart
+- Geen andere font dan Inter
+- Geen letter-spacing of size-verhoudingen (gebruik scale, niet individuele tweaks)
 
 ## Nog te leveren
 
 - [ ] `logo-mono-black.svg` — volledig zwart (één-kleur print/fax)
-- [ ] `logo-mono-white.svg` — volledig wit (één-kleur op donker)
-- [ ] `logo-mark.svg` — mark-only (alleen de pill, zonder "AI" en ".NL") voor favicons en social avatars
 - [ ] PNG-exports in 256, 512, 1024 voor social
+
+> *Niet nodig:* `logo-mono-white.svg` (volledig wit knock-out). Voor donkere
+> achtergronden volstaat `logo-on-dark.svg` (mét .NL wit) of `logo-mark.png`
+> (zonder .NL — oranje pill is leesbaar op donker).
