@@ -8,8 +8,8 @@
  *   <TeamCarrousel
  *     items={[
  *       { image: "/assets/photos/samenwerking/sparring-bank.jpg", caption: "Sparringssessie" },
- *       { image: "/assets/photos/samenwerking/duo-werkplek.jpg", caption: "Klantonboarding" },
  *       { image: "/assets/photos/samenwerking/bank-overleg.jpg", caption: "Informeel overleg" },
+ *       { image: "/assets/photos/samenwerking/duo-dual-monitor.jpg", caption: "Implementatie en review" },
  *     ]}
  *   />
  */

@@ -25,7 +25,6 @@ De fotografie volgt één duidelijke stijl die *exact matcht* met de brand-gradi
 | Bestand | Gebruik |
 |---|---|
 | `sparring-bank.jpg` | **Team-sectie / proces-uitleg** — drie collega's met laptops op banken. Sterk voor "zo werken we"-blocks. |
-| `duo-werkplek.jpg` | **Klant-pagina / consultancy** — duo achter scherm, één kijkt mee. Geeft "samen-met-jou"-gevoel. |
 | `duo-dual-monitor.jpg` | **Technologie-pagina** — duo aan dual-monitor, focus op werk. |
 | `bank-overleg.jpg` | **Onboarding / kennismaking** — informeel bank-overleg, comfortabel. Alternatief voor strakke werkplekshots. |
 
