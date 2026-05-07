@@ -30,7 +30,6 @@ Sociale-media en site-banners voor AI Collega's. **Toegevoegd in 2.0** (mei 2026
 
 ## Nog te leveren
 
-- [ ] Live-formaat export 1584×396 voor personal banners
 - [ ] Twitter/X header (1500×500)
 - [ ] Facebook page cover (820×312)
 - [ ] YouTube banner (2560×1440)

@@ -199,7 +199,7 @@ CTA's die op de site werken: *Kennismaken*, *Plan een kennismaking*, *Bekijk cas
 | Ads (Meta) | 1080×1080 (1:1), 1080×1350 (4:5), 1080×1920 (9:16) PNG | px |
 | Slide | 1920×1080 PPTX/HTML | px |
 | Social | 1080×1350 (Insta) of 1200×675 (LinkedIn) | px |
-| LinkedIn personal banner | 1584×396 (live), 4752×1188 (@3x bron) | px |
+| LinkedIn personal banner | 4752×1188 (@3x bron — LinkedIn schaalt zelf naar 1584×396 live) | px |
 | LinkedIn company banner | 1128×191 | px |
 
 ## Banners (`assets/banners/`)
