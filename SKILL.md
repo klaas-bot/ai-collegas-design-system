@@ -142,7 +142,7 @@ oranje    wit op oranje   zwart of wit
 | `assets/logo/logo-default.svg` | Lichte achtergrond, .NL zwart — *standaard keuze* |
 | `assets/logo/logo-on-dark.svg` | Donkere achtergrond, .NL wit |
 | `assets/logo/logo-default.png` | Wanneer SVG niet kan (e-mail-clients, social) — 936×304 |
-| `assets/logo/logo-mark.png` | Compacte variant zonder .NL — voor favicons, square avatars, narrow placements |
+| `assets/logo/logo-mark.png` | Compacte variant *zonder .NL* — universeel inzetbaar op licht én donker (oranje pill is leesbaar tegen beide). Ook voor favicons, square avatars, narrow placements. |
 | `assets/logo/legacy/*` | Oude gradient-logo's — *niet meer gebruiken* in nieuwe productie |
 
 ### Spacing & radii
