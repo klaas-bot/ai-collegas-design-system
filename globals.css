@@ -1,12 +1,16 @@
 /*
- * AI Collega's — Design System Globals
+ * AI Collega's — Design System 2.0 Globals
+ * Mono-first met optionele gradient.
  * CSS-variabelen die de tokens uit tokens.json mirroren.
  * Gebruik deze in Tailwind v4 (@theme) of als pure CSS.
  */
 
 :root {
-  /* Brand */
+  /* Brand — mono-first */
   --color-brand-orange: #f97316;
+  --color-brand-orange-hover: #ea580c;
+  --color-brand-ink: #0a0a0a;
+  /* Optionele gradient-stops — alleen voor web/hero, niet voor logo/ads */
   --color-brand-red: #ef4444;
   --color-brand-pink: #ec4899;
 
@@ -26,7 +30,7 @@
   --color-danger: #ef4444;
   --color-info: #3b82f6;
 
-  /* Gradients */
+  /* Optional gradients — alleen voor web/hero/wow. Niet voor logo of ads. */
   --gradient-brand-3: linear-gradient(90deg, var(--color-brand-orange) 0%, var(--color-brand-red) 50%, var(--color-brand-pink) 100%);
   --gradient-brand-2: linear-gradient(90deg, var(--color-brand-orange) 0%, var(--color-brand-red) 100%);
 
@@ -73,7 +77,33 @@
   --shadow-xl: 0 20px 25px -5px rgb(0 0 0 / 0.1);
 }
 
-/* Utility-classes voor brand-gradient tekst */
+/* === MONO (default in 2.0) === */
+
+/* Mono-oranje tekst — default brand-accent */
+.text-brand {
+  color: var(--color-brand-orange);
+}
+
+/* Pill-button met mono-oranje achtergrond — default CTA */
+.btn-mono-pill {
+  background: var(--color-brand-orange);
+  color: var(--color-white);
+  border-radius: var(--radius-pill);
+  padding: var(--space-3) var(--space-6);
+  font-family: var(--font-primary);
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.15s ease;
+}
+
+.btn-mono-pill:hover {
+  background: var(--color-brand-orange-hover);
+}
+
+/* === GRADIENT (optioneel — alleen voor web/hero/wow-momenten) === */
+
+/* Utility-class voor brand-gradient tekst — alleen voor hero/landing */
 .text-gradient-brand {
   background: var(--gradient-brand-3);
   -webkit-background-clip: text;
@@ -82,13 +112,13 @@
   color: transparent;
 }
 
-/* Pill-button met brand-gradient achtergrond */
+/* Pill-button met brand-gradient achtergrond — alleen voor hero-CTA */
 .btn-gradient-pill {
   background: var(--gradient-brand-2);
   color: var(--color-white);
   border-radius: var(--radius-pill);
   padding: var(--space-3) var(--space-6);
-  font-family: var(--font-system);
+  font-family: var(--font-primary);
   font-weight: 700;
   border: none;
   cursor: pointer;

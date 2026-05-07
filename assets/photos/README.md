@@ -42,6 +42,17 @@ De fotografie volgt één duidelijke stijl die *exact matcht* met de brand-gradi
 |---|---|
 | `marlie-staand.jpg` | **"Professional"-context** — staand portret in pak met laptop. Geposeerder dan de rest, dus selectief inzetten (bv. recruiters-pagina, B2B-content). |
 
+### `training/` *(nieuw 2.0)*
+
+Echte trainingsmomenten in de AI Collega's HUB Apeldoorn. Sterk voor "AI Strategie" / "AI Partnership" pagina's, LinkedIn-content en social-proof rond kennissessies.
+
+| Bestand | Gebruik |
+|---|---|
+| `training-presentatie-prompts.jpeg` | **Wide hero** — trainer voor groep deelnemers, scherm toont "Waarom je AI-collega duidelijkheid nodig heeft" met groene/rode prompt-vergelijking. Beste single shot voor "wij geven trainingen"-claim (1024×683). |
+| `training-product-demo.jpeg` | **Product-content** — trainer demonstreert AI Collega's Prompt Assistent op groot scherm (logo zichtbaar in productinterface). Past op product-/Agents-pagina's (1024×683). |
+| `training-detail-prompt.jpeg` | **Detail-overlay** — POV-shot van smartphone die foto neemt van het scherm. Sterk voor "deelnemers nemen het mee" / engagement-content (1024×683). |
+| `training-trainer-portret.jpeg` | **Portret-content** — verticale shot van trainer presenterend voor lattenwand met planten. Sociale-feed (Instagram story / 9:16) of column-layout (640×960). |
+
 ## Optimalisatie
 
 Alle foto's zijn geprocessed met:
