@@ -8,6 +8,7 @@ Sociale-media en site-banners voor AI Collega's. **Toegevoegd in 2.0** (mei 2026
 |---|---|---|
 | `linkedin-personal.png` | LinkedIn-banner persoonlijk profiel — voor teamleden | 4752×1188 (@3x bron) |
 | `linkedin-company.png` | LinkedIn-banner bedrijfspagina | 1128×191 |
+| `og-image.png` | Open Graph share-image — voor social-share previews (LinkedIn, Twitter, WhatsApp link-cards) | 1200×630 |
 
 ## Compositie
 

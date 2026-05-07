@@ -42,6 +42,23 @@ De fotografie volgt één duidelijke stijl die *exact matcht* met de brand-gradi
 |---|---|
 | `marlie-staand.jpg` | **"Professional"-context** — staand portret in pak met laptop. Geposeerder dan de rest, dus selectief inzetten (bv. recruiters-pagina, B2B-content). |
 
+### `portret/team/` *(nieuw 2.0)*
+
+Solo-portretten van alle 10 teamleden — afkomstig van de officiële teampagina aicollegas.nl/team, geoptimaliseerd naar max 1600px / JPEG q80. Voor `TeamGrid`, "Over ons"-secties, en pagina's waar individuele teamleden uitgelicht worden.
+
+| Bestand | Naam | Rol |
+|---|---|---|
+| `jacco.jpeg` | Jacco | Sales Lead |
+| `maarten.jpeg` | Maarten | AI Strategy Lead |
+| `lars.jpeg` | Lars | AI Developer |
+| `david.jpeg` | David | AI Implementatiespecialist |
+| `marlie.jpeg` | Marlie | Online Marketeer |
+| `niels.jpeg` | Niels | AI Product Lead |
+| `aaron.jpeg` | Aaron | Business Development Representative |
+| `kean.jpeg` | Kean | AI Automations |
+| `remon.jpeg` | Remon | AI Trainer |
+| `manuela.jpeg` | Manuela | Digital Transformations |
+
 ### `training/` *(nieuw 2.0)*
 
 Echte trainingsmomenten in de AI Collega's HUB Apeldoorn. Sterk voor "AI Strategie" / "AI Partnership" pagina's, LinkedIn-content en social-proof rond kennissessies.
@@ -71,4 +88,3 @@ Alle herkenbare personen op deze foto's hebben toestemming gegeven voor gebruik 
 - [ ] WebP-versies generen wanneer `cwebp` beschikbaar is
 - [ ] `srcset` met @1x (1200px) en @2x (2400px) varianten splitsen
 - [ ] Alt-text per foto in `photo-meta.json` voor SEO/toegankelijkheid
-- [ ] Solo-portretten Lars / Niels / David / Jacco / Maarten / Esther toevoegen voor `TeamGrid`

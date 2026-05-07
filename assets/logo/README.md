@@ -10,6 +10,9 @@
 | `logo-on-dark.svg` | Voor donkere achtergronden (`.NL` in wit). Mono-oranje, Inter, viewBox 182×34. |
 | `logo-default.png` | Bitmap-fallback voor e-mail/social — 936×304, `.NL` zwart |
 | `logo-mark.png` | Compacte variant zonder `.NL` — voor favicons, square avatars, narrow placements (936×304) |
+| `favicons/favicon.ico` | Multi-size .ico (256×256) — voor `<link rel="icon">` in `<head>` |
+| `favicons/icon-32.png` | 32×32 PNG icon — voor moderne browsers (`<link rel="icon" sizes="32x32">`) |
+| `favicons/apple-icon-180.png` | 180×180 Apple touch icon — voor iOS home-screen |
 | `legacy/*` | Oude gradient-logo's (1.0). **Niet gebruiken voor nieuwe productie.** Behouden voor referentie en archiefcontent. |
 
 ## Anatomie (2.0)
@@ -50,4 +53,3 @@ oranje    wit op oranje   zwart of wit
 - [ ] `logo-mono-black.svg` — volledig zwart (één-kleur print/fax)
 - [ ] `logo-mono-white.svg` — volledig wit (één-kleur op donker)
 - [ ] PNG-exports in 256, 512, 1024 voor social
-- [ ] Favicon-set (16, 32, 64, 192) afgeleid van `logo-mark.png`

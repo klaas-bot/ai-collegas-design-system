@@ -243,6 +243,7 @@ De foto-set in `assets/photos/` is dé bron voor visuele content. Stijl is consi
 | Samenwerking | `samenwerking/` | "Zo werken we", klant-onboarding, proces |
 | Werkplek | `werkplek/` | Sfeer-secties, technologie-content, anonieme overlays |
 | Portret | `portret/` | B2B-content, "professional"-context |
+| Team-portretten *(nieuw 2.0)* | `portret/team/` | Solo-headshots van alle 10 teamleden — voor `TeamGrid`, "Over ons"-secties, individuele uitlichting |
 | Training *(nieuw 2.0)* | `training/` | Kennissessies, AI-trainingen, social-proof voor "AI Strategie" / "AI Partnership", LinkedIn-content |
 
 ### Standaard rendering
