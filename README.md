@@ -29,12 +29,12 @@ assets/
   logo/              → logo-default.svg, logo-on-dark.svg, logo-default.png, logo-mark.png
     legacy/          → oude gradient-logo's (niet meer gebruiken)
   banners/           → LinkedIn personal + company banners
-  photos/            → curated foto-set
-    groep/           → hero-shots
-    samenwerking/    → duo / team / proces
-    werkplek/        → kantoor / sfeer
-    portret/         → individuele portretten
-    training/        → kennissessies in de HUB (nieuw 2.0)
+  photos/            → fotoshoot HUB Apeldoorn (28 mei 2026, 131 foto's)
+    groep/           → team samen / lunch / overleg aan tafel
+    samenwerking/    → duo / groep aan laptop / planning-tafel
+    werkplek/        → geconcentreerd werk / dual-monitor / kantoor
+    portret/         → solo-portretten op kruk
+    presentatie/     → whiteboard-sessies
 ```
 
 ## Brand basics (2.0)

@@ -7,9 +7,9 @@
  * Gebruik:
  *   <TeamCarrousel
  *     items={[
- *       { image: "/assets/photos/samenwerking/sparring-bank.jpg", caption: "Sparringssessie" },
- *       { image: "/assets/photos/samenwerking/bank-overleg.jpg", caption: "Informeel overleg" },
- *       { image: "/assets/photos/samenwerking/duo-dual-monitor.jpg", caption: "Implementatie en review" },
+ *       { image: "/assets/photos/samenwerking/DSC06823.jpg", caption: "Sparringssessie" },
+ *       { image: "/assets/photos/samenwerking/DSC06835.jpg", caption: "Informeel overleg" },
+ *       { image: "/assets/photos/samenwerking/DSC06862.jpg", caption: "Implementatie en review" },
  *     ]}
  *   />
  */

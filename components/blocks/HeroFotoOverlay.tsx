@@ -3,7 +3,7 @@
  *
  * Gebruik:
  *   <HeroFotoOverlay
- *     image="/assets/photos/groep/pitch-hub.jpg"
+ *     image="/assets/photos/groep/DSC06317.jpg"
  *     headline="Een AI-collega die het werk overneemt"
  *     subline="Voor MKB, recruiters en HR-professionals"
  *     ctaLabel="Plan een kennismaking"

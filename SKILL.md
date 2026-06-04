@@ -11,7 +11,7 @@ Gebruik dit skill-bestand bij het maken van *elke* visuele output voor AI Colleg
 > - Logo is *mono-oranje* — geen gradient meer in het logo zelf
 > - Inter is de officiële font in alle SVG-logo's (was system-fonts)
 > - Mono-oranje (`#f97316`) is nu de *default* brand-kleur; gradient blijft beschikbaar maar alleen voor optionele "wow"-momenten op web/landing
-> - Nieuwe categorie: `assets/photos/training/` — kennissessies in de HUB
+> - Nieuwe fotoshoot HUB Apeldoorn (28 mei 2026, 131 foto's) — categorieën `groep/`, `samenwerking/`, `werkplek/`, `portret/`, `presentatie/`
 > - Nieuw: `assets/banners/` met LinkedIn-banners (personal + company)
 > - Oude gradient-logo's staan in `assets/logo/legacy/` — niet meer gebruiken voor nieuwe productie
 
@@ -31,9 +31,9 @@ Drie diensten (live op aicollegas.nl/wat-we-doen/):
 - **AI Strategie** — `/wat-we-doen/ai-strategie` — advies + roadmap voor AI-implementatie binnen MKB
 - **AI Partnership** — `/wat-we-doen/ai-partnership` — langetermijn partnership met begeleiding en doorontwikkeling
 
-Daarnaast op intern materiaal (zoals zichtbaar in `assets/photos/groep/meeting-wat-wij-doen.jpg`) wordt soms het kader **AI inspireren / AI lezen / AI integreren** gehanteerd. *Bij externe communicatie altijd de live productnaamgeving aanhouden* (Agents / Strategie / Partnership), tenzij David expliciet anders aangeeft.
+Daarnaast wordt op intern materiaal soms het kader **AI inspireren / AI lezen / AI integreren** gehanteerd. *Bij externe communicatie altijd de live productnaamgeving aanhouden* (Agents / Strategie / Partnership), tenzij David expliciet anders aangeeft.
 
-**AI Collega's HUB** — branded fysieke + digitale ontmoetingsplek in Apeldoorn (zichtbaar op `assets/photos/groep/pitch-hub.jpg` en de hele `assets/photos/training/` set), gebruikt voor klant-onboarding, trainingen en kennisdeling.
+**AI Collega's HUB** — branded fysieke + digitale ontmoetingsplek in Apeldoorn (zichtbaar in de hele `assets/photos/` set), gebruikt voor klant-onboarding, trainingen en kennisdeling.
 
 ## Cases / klanten
 
@@ -239,12 +239,11 @@ De foto-set in `assets/photos/` is dé bron voor visuele content. Stijl is consi
 
 | Categorie | Map | Wanneer |
 |---|---|---|
-| Groep / pitch | `groep/` | Hero homepage, "Over ons" — beste brand-statement |
-| Samenwerking | `samenwerking/` | "Zo werken we", klant-onboarding, proces |
-| Werkplek | `werkplek/` | Sfeer-secties, technologie-content, anonieme overlays |
-| Portret | `portret/` | B2B-content, "professional"-context |
-| Team-portretten *(nieuw 2.0)* | `portret/team/` | Solo-headshots van alle 10 teamleden — voor `TeamGrid`, "Over ons"-secties, individuele uitlichting |
-| Training *(nieuw 2.0)* | `training/` | Kennissessies, AI-trainingen, social-proof voor "AI Strategie" / "AI Partnership", LinkedIn-content |
+| Groep | `groep/` (39) | Hero homepage, "Over ons", cultuur — team samen aan tafel/lunch |
+| Samenwerking | `samenwerking/` (35) | "Zo werken we", klant-onboarding, proces — duo's, groep aan laptop, planning-tafel |
+| Werkplek | `werkplek/` (45) | Sfeer-secties, technologie-content, anonieme overlays — geconcentreerd werk, dual-monitor |
+| Portret | `portret/` (8) | B2B-content, "professional"-context — solo-portretten op kruk |
+| Presentatie | `presentatie/` (4) | Kennissessies, AI-trainingen, social-proof — whiteboard-sessies |
 
 ### Standaard rendering
 
